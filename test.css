@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.sectionstep2 {
+    
+    background-color: black;
+    
+    height: 1074px;
+    
+}
+
+
+
+.step2-navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.step2-navigation_item {
+    margin: 47px;
+}
+
+.camera {
+    background-image: url('Vector.svg');
+   position: absolute;
+left: 48.99%;
+right: 48.73%;
+top: 31.05%;
+bottom: 67.84%;
+width: 33px;
+height: 28px;
+
+}
