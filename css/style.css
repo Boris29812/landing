@@ -1,7 +1,5 @@
 body {
     margin: 0px;
-    font-family: Nunito Sans;
-    font-style: italic; 
 }
 
 * {
@@ -72,7 +70,7 @@ body {
 }
 
 .Turnkey {
-    background-image: url('image.jpg');
+    background: url('../image/image.jpg');
     background-size: cover;
     height: 707px;
     padding-top: 194px;
@@ -198,7 +196,7 @@ body {
 }
 
 .completed-projects_image {
-    background-image: url('image2.png');
+    background-image: url('../image/image2.png');
     background-size: cover;
     width: 679px;
     height: 482px;
@@ -279,11 +277,11 @@ body {
 }
 
 .camera-logo_image {
-    background-image: url('Vector.svg');
+    background-image: url('../svg/Vector.svg');
 }
 
 .tools-logo_image {
-    background-image: url('Vector2.svg');
+    background-image: url('../svg/Vector2.svg'); 
 }
 .icon {
     height: 28px;
@@ -304,7 +302,7 @@ body {
 }
 
 .video-image {
-    background-image: url(image3.png);
+    background-image: url('../image/image3.png');
     background-repeat: no-repeat;
     height: 434px;
     width: 817px;
@@ -400,15 +398,15 @@ body {
 }
 
 .decorating_image {
-    background: url('decorating.jpg');
+    background: url('../image/decorating.jpg');
 }
 
 .overhaul_image {
-    background: url('overhaul.jpg');
+    background: url('../image/overhaul.jpg');
 }
 
 .designer_image {
-    background: url('designer.jpg');
+    background: url('../image/designer.jpg');
 }
 
 .img {
