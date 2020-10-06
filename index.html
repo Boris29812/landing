@@ -12,19 +12,19 @@
 <body>
     <header class="header">
         <div class="container header-content">
-            <div class="logo">
+            <div class="logo repair-logo">
             IC "Repair Design Project"
             </div>
-        <nav>
-            <ul class="header-navigation">
-                <li class="header-navigation__items"><a class="header-navigation__link" href="#home">HOME</a></li>
+        <nav class="header-navigation">
+            <ul class="header-navigation_list">
+                <li class="header-navigation__items"><a class="header-navigation__link" href="#home"><span class="header-span home">HOME</span></a></li>
                 <li class="header-navigation__items"><a class="header-navigation__link" href="#projects">Projects</a></li>
                 <li class="header-navigation__items"><a class="header-navigation__link" href="#Measurement">Measurement</a></li>
                 <li class="header-navigation__items"><a class="header-navigation__link" href="#REVIEWS">REVIEWS</a></li>
                 <li class="header-navigation__items"><a class="header-navigation__link" href="#CONTACTS">CONTACTS</a></li>
-                <li class="header-navigation__items"><a class="header-navigation__link" href="tel +7 (928) 768-32-39"><span class="step1span">+7 (928) 768-32-39</span></a></li>
             </ul>
         </nav>
+        <a class="header-navigation__link" href="tel: +7 (928) 768-32-39"><span class="header-span tel">+7 (928) 768-32-39</span></a>
             <button class="button button-request">Request a call</button>
         </div>
     </header>
@@ -46,17 +46,17 @@
                     <li class="projects-navigation_item"><a class="projects-navigation_link" href="#">Rostov-on-Don Patriotic</a></li>
                 </ul>
                 <div class="completed-projects">
-                    <div class="completed-projects_image"></div>
                     <h2 class="title completed-projects_title">Completed projects</h2>
                     <p class="text completed-projects_text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
                     market we have made happy more than 1000 families</p>
+                    <div class="completed-projects_image"></div>
                     <div class="completed-projects_info">
                         <div class="completed-projects_info__block">
                             <h3 class="title completed-projects_info_item">city:</h3>
                             <span class="text step2span">Rostov-on-Don <br> LCD admiral</span>
                         </div>
                         <div class="completed-projects_info__block">
-                            <h3 class="completed-projects_info_item">apartment area:</h3>
+                            <h3 class="title completed-projects_info_item">apartment area:</h3>
                             <span class="text step2span">81 m2</span>
                         </div>
                         <div class="completed-projects_info__block">
@@ -103,7 +103,8 @@
                     <button class="button button-checkbox">submit</button>
                     <div class="first-checkbox">
                         <label class="checkbox-label">
-                          <input type="checkbox" class="checkbox" >
+                          <input type="checkbox" class="checkbox">
+                          <span class="fake-checkbox"></span>
                           <span class="text checkbox_text">I agree to the processing of personal data.</span>
                         </label>
                     </div>
@@ -180,7 +181,8 @@
                         <label class="text advantages_label">Phone <br><input type="text" class="input2 phonenumber_input" placeholder="Your phone number:"></label><br>
                         <label class="text advantages_label">Email <br><input type="email" class="input2 email_input" placeholder="Your email"></label><br>
                             <label class="checkbox-label">
-                              <input type="checkbox" class="checkbox2" >
+                              <input type="checkbox" class="checkbox checkbox2">
+                              <span class="fake-checkbox"></span>
                               <span class="text checkbox2_text">I agree to the processing of personal data.</span>
                             </label><br>
                             <button class="button button-checkbox">Call the measurer</button>
@@ -260,8 +262,10 @@
                         <label class="text question_label_3">Question <br><input type="text" class="input3 question_input" placeholder="I want to know:"></label><br>
                     </div>
                     <label class="checkbox3-label">
-                        <input type="checkbox" class="checkbox3" ><span class="text checkbox3_text">I agree to the processing of personal data.</span>
-                    </label><br>
+                        <input type="checkbox" class="checkbox checkbox3">
+                        <span class="fake-checkbox"></span>
+                        <span class="text checkbox3_text">I agree to the processing of personal data.</span>
+                    </label>
                     <button class="button button-checkbox">Submit</button>
                </form>
             </div>
@@ -278,21 +282,21 @@
             <div class="dark darkTheme2"></div>
         </section>
     </main>
-    <footer class="header">
+    <footer class="header footer">
         <div class="container header-content">
-            <div class="logo">
+            <div class="logo repair-logo">
             IC "Repair Design Project"
             </div>
-            <nav>
-                <ul class="header-navigation">
-                    <li class="header-navigation__items"><a class="header-navigation__link" href="#home">HOME</a></li>
-                    <li class="header-navigation__items"><a class="header-navigation__link" href="#projects">Projects</a></li>
-                    <li class="header-navigation__items"><a class="header-navigation__link" href="#Measurement">Measurement</a></li>
-                    <li class="header-navigation__items"><a class="header-navigation__link" href="#REVIEWS">REVIEWS</a></li>
-                    <li class="header-navigation__items"><a class="header-navigation__link" href="#CONTACTS">CONTACTS</a></li>
-                    <li class="header-navigation__items"><a class="header-navigation__link" href="#tel +7 (928) 768-32-39">+7 (928) 768-32-39</a></li>
-                </ul>
-            </nav>
+        <nav class="header-navigation">
+            <ul class="header-navigation_list">
+                <li class="header-navigation__items"><a class="header-navigation__link" href="#home"><span class="header-span home">HOME</span></a></li>
+                <li class="header-navigation__items"><a class="header-navigation__link" href="#projects">Projects</a></li>
+                <li class="header-navigation__items"><a class="header-navigation__link" href="#Measurement">Measurement</a></li>
+                <li class="header-navigation__items"><a class="header-navigation__link" href="#REVIEWS">REVIEWS</a></li>
+                <li class="header-navigation__items"><a class="header-navigation__link" href="#CONTACTS">CONTACTS</a></li>
+                <li class="header-navigation__items"><a class="header-navigation__link" href="tel: +7 (928) 768-32-39"><span class="header-span tel">+7 (928) 768-32-39</span></a></li>
+            </ul>
+        </nav>
             <button class="button button-request">Request a call</button>
         </div>
     </footer>
