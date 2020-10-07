@@ -23,7 +23,7 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 83px; 
     align-items: center;
 }
