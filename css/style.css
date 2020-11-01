@@ -908,10 +908,8 @@ body {
  .addres-Rostov {
     padding-top: 273px;
     display: flex;
-    justify-content: center;
-    width: 547px;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
  }
 
  .addres-logo {
@@ -936,8 +934,16 @@ body {
     color: #E3B873
 }
 
-.map  { 
+.addres-contacts {
+    display: flex;
+}
+
+.map { 
     margin-top: 30px;
+}
+
+.map_mobile { 
+    display: none;
 }
 
 .darkTheme2 {
@@ -965,6 +971,10 @@ body {
 
         display: none;
     }
+
+    .title, .text {
+        width: auto;
+    }
     
     .header-span, .repair-logo {
         text-decoration:none;
@@ -979,6 +989,8 @@ body {
 
     .header-content {
         justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .section-Turnkey {
@@ -994,7 +1006,7 @@ body {
 
     .button {
         box-shadow: unset;
-        width: 339px;
+        width: auto;
     }
 
     .button-submit {
@@ -1002,14 +1014,13 @@ body {
         margin-top: 26px;
         width: 207px;
         height: 61px;
-        width: 339px;
     }
 
     .title-turnkey {
         font-size: 23px;
         line-height: 132.83%;
-        width: 339px;
         height: 60px;
+        margin-bottom: 15px;
     }
 
     .text-turnkey {
@@ -1017,7 +1028,6 @@ body {
         font-weight: normal;
         font-size: 14px;
         line-height: 135.84%;
-        width: 339px;
     }
 
     .completed-projects {
@@ -1029,7 +1039,7 @@ body {
     }
     
     .completed-projects_info {
-        width: 400px;
+        width: 270px;   
         display: flex;
         flex-wrap: wrap;
         margin-top: 36px;
@@ -1037,9 +1047,11 @@ body {
 
     .completed-projects_image {
         margin: unset;
-        width: 400px;
+        width: 280px;
         height: 284px;
         background-image: url('../image/image7.png');
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .completed-projects_title {
@@ -1056,7 +1068,6 @@ body {
         font-size: 11px;
         line-height: 158.48%;
         text-align: center;
-        width: 315px;
     }
 
     .completed-projects_info_item {
@@ -1071,6 +1082,7 @@ body {
 
     .completed-projects_info__block {
         height: 95px;
+        width: 135px;
     }
 
     .control {
@@ -1087,7 +1099,6 @@ body {
         font-size: 11px;
         line-height: 169.8%;
         color: #FFFFFF;
-        width: 340px;
     }
 
     .data {
@@ -1107,7 +1118,7 @@ body {
     }
 
     .input {
-        width: 340px;
+        width: auto;
         background-color: black;
         border-bottom: 1px solid white; 
         color: white;
@@ -1126,6 +1137,7 @@ body {
 
     .button-checkbox {
         margin-top: 65px;
+        width: 200px;
     }
 
     .first-checkbox {
@@ -1140,6 +1152,10 @@ body {
         flex-direction: column;
         margin-top: 53px;
         align-items: center;
+    }
+
+    .img, .info {
+        width: auto;
     }
 
     .from {
@@ -1177,10 +1193,13 @@ body {
         display: none;
     }
 
-    .map {
-        order: -1;
-        margin-bottom: 40px;
-        width: auto;
+    .map_computer {
+      display: none;
+    }
+
+    .map_mobile{
+        display:unset;
+        max-width: 270px;
     }
 
     .addres-title {
